@@ -1,81 +1,85 @@
-# Loopify
+# Loopify 🎵
 
-Loopify is a desktop application designed for audio processing. Built with [Electron](https://www.electronjs.org/), it provides a user-friendly interface for handling audio files and integrates [Fluent-FFmpeg](https://github.com/fluent-ffmpeg/node-fluent-ffmpeg) to support a variety of audio export and processing options.
+Loopify is an interactive web-based music creation tool that allows users to create dynamic musical loops by combining different instruments and moods. Built with React and Tone.js, it offers an intuitive interface for real-time music generation.
 
 ## Features
 
-- **Audio Export**: Export audio files in different formats using FFmpeg.
-- **Responsive UI**: Built with Electron for a smooth and intuitive user experience.
-- **Platform Support**: Compatible with Windows, macOS, and Linux.
-- **Customizable Settings**: Flexible configuration options for different workflows.
+- 🎹 Multiple instrument tracks (Synth, Bass, Drums, Pad, Lead)
+- 🎨 Five different mood presets (Happy, Melancholic, Energetic, Chill, Intense)
+- ⚡ Real-time tempo control (60-200 BPM)
+- 🎛️ Interactive instrument toggles
+- 🎯 Pattern-based music generation
+- 🎼 Dynamic audio synthesis using Tone.js
 
-## Installation
+## Technologies Used
+
+- React
+- Tone.js for audio synthesis and sequencing
+- Tailwind CSS for styling
+- Modern JavaScript (ES6+)
+
+## Getting Started
 
 ### Prerequisites
 
-- [Node.js](https://nodejs.org/) (version 14 or later)
-- [npm](https://www.npmjs.com/) (comes with Node.js)
+- Node.js (v14 or higher)
+- npm or yarn package manager
 
-### Steps
+### Installation
 
 1. Clone the repository:
-   ```bash
-   git clone https://github.com/your-username/loopify.git
-   cd loopify
-   ```
+```bash
+git clone https://github.com/yourusername/loopify.git
+cd loopify
+```
 
 2. Install dependencies:
-   ```bash
-   npm install
-   ```
+```bash
+npm install
+# or
+yarn install
+```
 
-3. Start the application:
-   ```bash
-   npm start
-   ```
+3. Start the development server:
+```bash
+npm start
+# or
+yarn start
+```
 
 ## Usage
 
-1. Launch Loopify by running the above commands or the packaged app.
-2. Import an audio file using the interface.
-3. Process the audio using the available tools.
-4. Export the audio file in the desired format.
+1. Select instruments by clicking on the instrument buttons
+2. Choose a mood that matches your desired musical style
+3. Adjust the tempo using the slider
+4. Click "Play" to start the loop
+5. Click "Stop" to end playback
 
-## Development
+## Contributing
 
-If you want to contribute or customize the app, follow these steps:
+Contributions are welcome! Here are a few ways you can help:
 
-1. Run the application in development mode:
-   ```bash
-   npm run dev
-   ```
+1. Report bugs
+2. Suggest new features
+3. Submit pull requests
+4. Improve documentation
 
-2. Access developer tools for debugging:
-   - Use the Electron Developer Tools accessible from the app window.
+Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduct and the process for submitting pull requests.
 
-## File Structure
+## Future Enhancements
 
-- `src/main.js`: Main Electron process file for initializing the app and managing IPC communication.
-- `index.html`: Front-end interface file loaded by the Electron app.
-- `package.json`: Dependency and script management for the project.
-
-## Contribution Guidelines
-
-We welcome contributions! Feel free to:
-
-1. Fork the repository.
-2. Create a new feature branch:
-   ```bash
-   git checkout -b feature-name
-   ```
-
-3. Commit your changes and open a pull request.
+- [ ] Custom pattern creation
+- [ ] More instruments and sound presets
+- [ ] Effect controls (reverb, delay, etc.)
+- [ ] Pattern export/import functionality
+- [ ] MIDI device support
 
 ## License
 
-This project is licensed under the MIT License. See the `LICENSE` file for more details.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Acknowledgments
 
-- [Electron](https://www.electronjs.org/) for enabling cross-platform desktop development.
-- [Fluent-FFmpeg](https://github.com/fluent-ffmpeg/node-fluent-ffmpeg) for audio processing capabilities.
+- Thanks to [Tone.js](https://tonejs.github.io/) for providing the audio synthesis capabilities
+- Built with [React](https://reactjs.org/)
+- Styled with [Tailwind CSS](https://tailwindcss.com/)
