@@ -29,8 +29,8 @@ Loopify is an interactive web-based music creation tool that allows users to cre
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/loopify.git
-cd loopify
+git clone https://github.com/makalin/Loopify.git
+cd Loopify
 ```
 
 2. Install dependencies:
